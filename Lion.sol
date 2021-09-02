@@ -149,7 +149,7 @@ pragma solidity ^0.8.0;
 
 
 contract LionCoin is ERC20, Ownable {
-    uint256 public maxMintable = 10000000000 * 10**18;
+    uint256 public maxMintable = 10000000 * 10**18;
 
     constructor() ERC20("Lions", "LION") Ownable() {}
 
