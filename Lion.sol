@@ -115,8 +115,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual { }
 }
 
-pragma solidity ^0.8.0;
-
 
 abstract contract Ownable is Context {
     address private _owner;
@@ -143,9 +141,6 @@ abstract contract Ownable is Context {
         _owner = newOwner;
     }
 }
-
-
-pragma solidity ^0.8.0;
 
 
 contract LionCoin is ERC20, Ownable {
